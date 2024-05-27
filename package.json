@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1517.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "multer": "^1.4.5-lts.1",
+    "node-input-validator": "^4.5.1",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.4"
+  },
+  "name": "learn-nordic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "development": "rm -f .env && cp .env.development .env && nodemon app.js",
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://singh-chetan@bitbucket.org/chetanjot-singh/learn-nordic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/chetanjot-singh/learn-nordic/issues"
+  },
+  "homepage": "https://bitbucket.org/chetanjot-singh/learn-nordic#readme",
+  "description": ""
+}
